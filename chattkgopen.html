@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>開く</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+    }
+
+    button {
+      background: #00c853; /* 緑 */
+      color: #ffffff;
+      font-size: 26px;
+      padding: 22px 60px;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #00b248;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="openLink()">開く</button>
+
+  <script>
+    function openLink() {
+      window.open(
+        "https://script.google.com/a/macros/g-ichinomiya.com/s/AKfycbwkPKhp3VW8EuqlhPfWc5IdkCjr9MzcM_jQ0ARXFExxYlSYhl4MM2yg5sl9Z2RrYLur/exec",
+        "_blank"
+      );
+    }
+  </script>
+
+</body>
+</html>
